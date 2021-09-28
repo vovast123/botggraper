@@ -9,10 +9,10 @@ base_dir = os.path.abspath(os.path.join(os.path.dirname('bot_grabber.py'), '..')
 sys.path.append(base_dir)
 from sqll.sql import SQL
 
-bot_tokenn = '2022290181:AAG53Y9mvkUs-gB1KTWAjriTwn_JQv01Hx8' # ваш бот токен
+bot_tokenn = 'bot_tokenn' # ваш бот токен
 y = 'текст который \n будет \nдобавлен' # текст который будет добавлен
-api_hash = '1a79bf2aa03dd76d22e86aee7fd1e524' #приложение
-api_id ='8672592'                     #приложение
+api_hash = 'api_hash' #приложение
+api_id ='api_id'                     #приложение
 
 app = Client('bot_python', api_id =api_id,api_hash = api_hash,bot_token=bot_tokenn)
 bd = SQL('../bd.db')
