@@ -50,7 +50,7 @@ def get_post(client, message):
             if urlr == None:
                 x.edit_text(f'{copy_text}\n \n \n {y}')
             else:
-                x.edit_text(f'{copy_text}\n \n \n {y}\n \n{urlr}'))
+                x.edit_text(f'{copy_text}\n \n \n {y}\n \n{urlr}')
 
 @app.on_message(filters.chat(bd.get_moder()))
 def send_post(client, message):
