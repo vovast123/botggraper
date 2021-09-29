@@ -4,16 +4,16 @@ import shelve  # файловая база данных
 db = shelve.open('data.db', writeback=True)
 
 # Создать можно на my.telegram.org
-API_ID = 8672592
-API_HASH = '1a79bf2aa03dd76d22e86aee7fd1e524'
+API_ID = API_ID
+API_HASH = 'API_HASH'
 
 PRIVATE_PUBLIC = 'redqwaszxred'  # скрытый паблик для управления ботом
 PUBLIC_PUBLIC = 'redqwaszx'  # паблик куда будем репостить
 SOURCE_PUBLICS = [
     # список пабликов-доноров, откуда бот будет пересылать посты
-    'rrrrrrrrrreeeeeeeee',
+    'SOURCE_PUBLICS',
 ]
-PHONE_NUMBER = '+380509785571'  # номер зарегистрованный в телеге
+PHONE_NUMBER = 'PHONE_NUMBER'  # номер зарегистрованный в телеге
 
 
 # создаем клиент телеграм
